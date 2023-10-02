@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Athes</string>
+    <string name="facebook_app_id">659346125414573</string>
+    <string name="fb_login_protocol_scheme">fb659346125414573</string>
+    <string name="facebook_client_token">37bd09b310b2d91142b71b178b0405da</string>
+    <!-- stagging url -->
+    <string name="deep_link_host">stagingapi.athes.io</string>
+    <!-- production url -->
+    <!-- <string name="deep_link_host">api.athes.io</string>   -->
+    <string name="deep_link_scheme">athesApp</string>
+</resources>

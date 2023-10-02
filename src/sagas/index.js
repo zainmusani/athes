@@ -1,0 +1,42 @@
+import {fork} from 'redux-saga/effects';
+import init from './init';
+import user from './user';
+import parent from './parent';
+import post from './post';
+import comment from './comment.js';
+import events from './events.js';
+import sessions from './sessions.js';
+import payments from './payments.js';
+import seasons from './seasons.js';
+import facility from './facility.js';
+import group from './group.js';
+import general from './general.js';
+import setting from './setting';
+import meetings from './meetings';
+import calendar from './calendar';
+import team from './team';
+import profile from './profile';
+import chat from './chat';
+import notifications from './notifications';
+
+export default function* root() {
+  yield fork(init);
+  yield fork(user);
+  yield fork(parent);
+  yield fork(post);
+  yield fork(comment);
+  yield fork(events);
+  yield fork(sessions);
+  yield fork(payments);
+  yield fork(seasons);
+  yield fork(facility);
+  yield fork(group);
+  yield fork(general);
+  yield fork(setting);
+  yield fork(meetings);
+  yield fork(calendar);
+  yield fork(team);
+  yield fork(profile);
+  yield fork(chat);
+  yield fork(notifications);
+}

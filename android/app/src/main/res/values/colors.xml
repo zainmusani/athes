@@ -1,0 +1,5 @@
+<resources>
+    <color name="primary_dark">#FFFFFF</color>
+    <color name="bootsplash">#FFFFFF</color>
+    <color name="bootsplash_background">#000000</color>
+</resources>

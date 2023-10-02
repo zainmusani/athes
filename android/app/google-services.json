@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "866845856570",
+    "project_id": "athesapp",
+    "storage_bucket": "athesapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866845856570:android:d55070300c70c9e2163603",
+        "android_client_info": {
+          "package_name": "com.athes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866845856570-8qi4o78c1kte749f9udkachshkd31rri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8D7UOPuvA7FwpvkUy_WYIIn0I6M6SROk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866845856570-8qi4o78c1kte749f9udkachshkd31rri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
